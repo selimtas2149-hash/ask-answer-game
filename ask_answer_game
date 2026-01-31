@@ -1,0 +1,28 @@
+gender=input(" what is  your gender?")
+if(gender=='man'):
+    handsome=input("are you handsome yes or no?")
+    clear=input("are you clever yes or no")
+    if(handsome and clear=='yes'):
+     print("ı think that you are a teenager how about you?")
+     age=int(input("what is your age"))
+     if(age<18):
+        print("as ı said you are a teenager")
+     if(18>age>12):
+       print("you are  a silly man")
+     if(age>18):
+        print("you are a big man")
+     if(age<12):
+        print("you are crazy")
+    else:
+       test=input("are you clever or hamdsome")
+       if(test=='clever'):
+          print(" you have a high confidence but this can harm you in the future")
+       else:
+          print("being handsome do not any means if you are situpid")
+
+else:
+   favoruti_colour=input("what is your favourite colour")
+   if(favoruti_colour=='pink' or favoruti_colour=='yellow'):
+      print("you are jealous")
+   else:
+      print("really, you are an exception")
